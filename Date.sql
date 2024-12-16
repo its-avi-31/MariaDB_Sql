@@ -1,0 +1,7 @@
+SHOW DATABASES;
+SELECT DATE('2002-01-31 04:23:55');     --Extracting date
+SELECT DATE_ADD('2024-11-25 12:07:20', INTERVAL 30 MINUTE); --Adding time 
+SELECT CURTIME();  --Shows Current time
+SELECT CURDATE();  --Shows Current date
+SELECT CURRENT_TIMESTAMP ();
+
